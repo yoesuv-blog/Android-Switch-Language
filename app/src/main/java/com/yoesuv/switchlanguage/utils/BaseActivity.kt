@@ -5,7 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.yoesuv.switchlanguage.data.LanguagePreferences
 import java.util.*
 
-class BaseActivity: AppCompatActivity() {
+abstract class BaseActivity: AppCompatActivity() {
 
     override fun attachBaseContext(newBase: Context?) {
         val locale = Locale(LanguagePreferences.appLanguage)

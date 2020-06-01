@@ -1,18 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="@dimen/global_margin_padding"
     tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <com.google.android.material.appbar.MaterialToolbar
+            android:id="@+id/toolbarMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textview.MaterialTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"/>
+
+        </com.google.android.material.appbar.MaterialToolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
 
     <!-- input full name -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/global_margin_padding"
+        android:layout_marginLeft="@dimen/global_margin_padding"
+        android:layout_marginRight="@dimen/global_margin_padding"
         android:hint="@string/full_name">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -27,6 +50,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/global_margin_padding"
+        android:layout_marginLeft="@dimen/global_margin_padding"
+        android:layout_marginRight="@dimen/global_margin_padding"
         android:hint="@string/email">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -41,6 +66,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/global_margin_padding"
+        android:layout_marginLeft="@dimen/global_margin_padding"
+        android:layout_marginRight="@dimen/global_margin_padding"
         android:hint="@string/password">
 
         <com.google.android.material.textfield.TextInputEditText
@@ -55,24 +82,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/global_margin_padding"
+        android:layout_marginLeft="@dimen/global_margin_padding"
+        android:layout_marginRight="@dimen/global_margin_padding"
         android:text="@string/button_register"
         android:minHeight="60dp"/>
 
     <!-- change language content -->
     <RadioGroup
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/global_margin_padding"
+        android:layout_marginRight="@dimen/global_margin_padding">
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/radioEnglish"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/english"/>
 
         <com.google.android.material.radiobutton.MaterialRadioButton
             android:id="@+id/radioIndonesia"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/indonesia"/>
 
