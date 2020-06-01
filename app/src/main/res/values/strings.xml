@@ -4,6 +4,8 @@
     <string name="full_name">Full Name</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
+    <string name="english">English</string>
+    <string name="indonesia">Indonesia</string>
 
     <string name="button_register">Register</string>
 </resources>
