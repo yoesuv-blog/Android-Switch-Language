@@ -1,4 +1,4 @@
-package com.yoesuv.duallanguage
+package com.yoesuv.switchlanguage
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

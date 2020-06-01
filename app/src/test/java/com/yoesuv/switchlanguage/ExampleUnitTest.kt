@@ -1,4 +1,4 @@
-package com.yoesuv.duallanguage
+package com.yoesuv.switchlanguage
 
 import org.junit.Test
 

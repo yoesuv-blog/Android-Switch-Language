@@ -1,4 +1,4 @@
-package com.yoesuv.duallanguage
+package com.yoesuv.switchlanguage
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
