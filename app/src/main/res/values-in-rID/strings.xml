@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ganti Bahasa</string>
+
+    <string name="full_name">Nama Lengkap</string>
+    <string name="email">Surel</string>
+    <string name="password">Kata Sandi</string>
+
+    <string name="button_register">Daftar</string>
+</resources>
